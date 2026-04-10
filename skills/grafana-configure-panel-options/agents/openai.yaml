@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Configure Panel Options"
+  short_description: "Tune Grafana panel display options"
+  default_prompt: "Use $grafana-configure-panel-options to tune this Grafana panel after the query and visualization type are already correct."

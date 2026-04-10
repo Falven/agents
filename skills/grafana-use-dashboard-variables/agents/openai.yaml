@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Use Dashboard Variables"
+  short_description: "Design Grafana variables and templating"
+  default_prompt: "Use $grafana-use-dashboard-variables to design variables for this Grafana dashboard."

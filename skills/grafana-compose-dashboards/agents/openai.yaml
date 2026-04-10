@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Compose Dashboards"
+  short_description: "Compose focused Grafana dashboards from working panels"
+  default_prompt: "Use $grafana-compose-dashboards to turn these working Grafana panels into a coherent dashboard."

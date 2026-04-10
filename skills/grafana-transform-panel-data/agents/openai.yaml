@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Transform Panel Data"
+  short_description: "Transform and reshape Grafana panel data"
+  default_prompt: "Use $grafana-transform-panel-data to reshape this Grafana panel output."

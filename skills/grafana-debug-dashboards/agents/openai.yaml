@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Debug Dashboards"
+  short_description: "Debug broken Grafana dashboards"
+  default_prompt: "Use $grafana-debug-dashboards to debug this Grafana dashboard systematically: start with Inspect and Explore to separate raw query output from transformed and formatted panel output, then check time and query overrides, variables and link context, transformations and field config, slow-panel Stats and Query details, and misleading presentation before proposing the smallest verified fix."

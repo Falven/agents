@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Build Alert Rules"
+  short_description: "Build Grafana-managed alert rules"
+  default_prompt: "Use $grafana-build-alert-rules to build or review a Grafana-managed alert from this panel or query. Return the condition shape, recovery behavior, and explicit No Data or Error handling."

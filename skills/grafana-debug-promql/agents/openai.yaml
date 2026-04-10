@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Debug PromQL"
+  short_description: "Debug PromQL used in Grafana panels"
+  default_prompt: "Use $grafana-debug-promql to fix this Grafana PromQL query."

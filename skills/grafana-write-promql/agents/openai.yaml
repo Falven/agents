@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Write PromQL"
+  short_description: "Write PromQL for Grafana dashboard panels"
+  default_prompt: "Use $grafana-write-promql to write a Grafana-friendly PromQL query for this panel."

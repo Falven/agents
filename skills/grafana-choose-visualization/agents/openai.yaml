@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Choose Visualization"
+  short_description: "Choose the right Grafana panel type"
+  default_prompt: "Use $grafana-choose-visualization to pick the best Grafana panel for this query result or dataset."

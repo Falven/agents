@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grafana Manage Dashboard JSON"
+  short_description: "Work with Grafana dashboard JSON"
+  default_prompt: "Use $grafana-manage-dashboard-json to work with this Grafana dashboard JSON or API payload."
