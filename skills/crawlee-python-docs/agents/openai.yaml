@@ -1,0 +1,4 @@
+interface:
+  display_name: "Crawlee Python Docs"
+  short_description: "Crawlee Python docs reference"
+  default_prompt: "Use $crawlee-python-docs to answer this Crawlee for Python question from the bundled docs."
