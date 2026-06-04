@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Guidance"
+  short_description: "Review and adapt prompts with model guidance"
+  default_prompt: "Use $prompt-guidance to review this prompt and suggest improvements."
