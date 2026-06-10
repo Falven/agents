@@ -2,24 +2,26 @@
 
 Repository for installable agent skills and future agent-related artifacts.
 
-Current v1 scope lives under `skills/`.
+### Operator Install With `skills`
 
-## Layout
+Install `prompt-guidance` globally from the remote repo to all agents supported by the `skills` CLI:
 
-```text
-skills/
-  grafana-choose-visualization/
-  grafana-write-promql/
-  ...
+```bash
+skills add Falven/agents -g --agent '*' --skill prompt-guidance -y
 ```
 
-## Conventions
+You can also install from the direct GitHub skill URL:
 
-- Keep every skill self-contained and installable by folder path.
-- Keep `SKILL.md` thin; put detailed guidance in small files under `references/`.
-- Add `scripts/` or `assets/` only when a skill genuinely needs them.
-- Keep repo-level files minimal. Do not add empty future directories.
+```bash
+skills add https://github.com/Falven/agents/tree/main/skills/prompt-guidance -g --agent '*' -y
+```
 
-## Install
+Install the same skill from a local checkout when you want local changes to drive the installed copy:
 
-Use the GitHub directory URL or `owner/repo` plus the skill path with `$skill-installer`.
+```bash
+skills add /path/to/agents -g --agent '*' --skill prompt-guidance -y
+```
+
+- `-g` installs at user scope so the skill is available across projects.
+- `--agent '*'` targets every agent integration supported by the local `skills` CLI.
+- `skills ls -g` lists globally installed skills.
