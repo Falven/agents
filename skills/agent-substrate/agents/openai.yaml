@@ -1,4 +1,0 @@
-interface:
-  display_name: "Agent Substrate"
-  short_description: "Work with agent-substrate/substrate"
-  default_prompt: "Use $agent-substrate to plan, operate, debug, or modify this agent-substrate/substrate task."
