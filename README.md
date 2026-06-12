@@ -25,3 +25,9 @@ skills add /path/to/agents -g --agent '*' --skill prompt-guidance -y
 - `-g` installs at user scope so the skill is available across projects.
 - `--agent '*'` targets every agent integration supported by the local `skills` CLI.
 - `skills ls -g` lists globally installed skills.
+
+To remove:
+
+```bash
+skills remove -g crawlee-python-docs grafana-build-alert-rules grafana-choose-visualization grafana-compose-dashboards grafana-configure-panel-options grafana-debug-dashboards grafana-debug-promql grafana-manage-dashboard-json grafana-transform-panel-data grafana-use-dashboard-variables grafana-write-promql policy-dockerfile policy-lua policy-python policy-ts-js prompt-guidance -y
+```
