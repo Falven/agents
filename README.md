@@ -13,7 +13,7 @@ skills add Falven/agents -g --agent '*' --skill prompt-guidance -y
 You can also install from the direct GitHub skill URL:
 
 ```bash
-skills add https://github.com/Falven/agents/tree/main/skills/prompt-guidance -g --agent '*' -y
+skills add Falven/agents -g --agent '*' --skill '*' -y
 ```
 
 Install the same skill from a local checkout when you want local changes to drive the installed copy:
