@@ -1,9 +1,9 @@
 ---
-name: image-generation-prompt-guidance
+name: prompt-guidance-image-generation
 description: Review, rewrite, and design prompts for OpenAI image generation and editing using bundled official guidance. Use for text-to-image prompts, surgical image edits, multi-image compositing, identity or character preservation, text inside images, photorealism, infographics, diagrams, ads, logos, UI mockups, product imagery, style transfer, model and quality tradeoffs, or iterative prompt refinement. Do not use merely to generate an image when prompt guidance is not needed.
 ---
 
-# Image Generation Prompt Guidance
+# Prompt Guidance: Image Generation
 
 Use this skill to turn an image request into a clear, production-ready prompt or to diagnose why an existing prompt drifts, misspells text, changes protected details, or produces the wrong composition.
 

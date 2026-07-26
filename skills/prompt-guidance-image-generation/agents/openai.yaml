@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Guidance: Image Generation"
+  short_description: "Design and review OpenAI image prompts"
+  default_prompt: "Use $prompt-guidance-image-generation to rewrite this image prompt for a production-quality result."
