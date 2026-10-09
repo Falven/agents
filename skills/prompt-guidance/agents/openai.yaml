@@ -1,4 +1,4 @@
 interface:
-  display_name: "Prompt Guidance"
-  short_description: "Review and adapt prompts with model guidance"
-  default_prompt: "Use $prompt-guidance to review this prompt and suggest improvements."
+  display_name: "GPT-6 Prompt Guidance"
+  short_description: "Review and adapt prompts with GPT-6 guidance"
+  default_prompt: "Use $prompt-guidance to review this prompt using official GPT-6 guidance and suggest improvements."
