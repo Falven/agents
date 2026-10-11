@@ -1,6 +1,7 @@
 ---
 name: explain
-description: Explain code and code changes at a chosen level of abstraction. Use when the user asks to understand code, an implementation, or a diff.
+description: Explain code and code changes at a chosen level of abstraction.
+disable-model-invocation: true
 ---
 
 Explain the requested code or change at the user's chosen **level of abstraction**. Accept a level by number or name. When no level is explicitly provided, use **3. Design**.
