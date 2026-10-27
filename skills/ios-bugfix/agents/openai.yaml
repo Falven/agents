@@ -1,0 +1,3 @@
+interface:
+  display_name: "iOS Bug Fix"
+  short_description: "Fix iOS bugs in worktrees with simulator proof"
