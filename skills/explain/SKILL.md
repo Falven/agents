@@ -19,7 +19,7 @@ A level determines which questions the explanation answers, not its length. Cove
 ## Process
 
 1. Identify the target from the request and conversation. Read the relevant source and enough surrounding code to establish its role. For changes, inspect the comparison identified by the request or context. Ask only if the target or required comparison cannot be determined.
-2. Lead with the answer at the selected level, then explain the relationships or sequence needed to understand it. Use the project's glossary vocabulary where available. Choose prose, a short list, or a small diagram according to what makes those relationships clearest.
-3. Ground the explanation in the source: link relevant source locations where available, and distinguish observed behavior from inferred intent. Stop when the selected level's question is answered.
+2. Lead with the answer at the selected level, then briefly explain where the subject fits in the wider problem or system and the relationships or sequence needed to understand it. Define unfamiliar terms and concepts as they arise, using the project's glossary vocabulary where available. Choose prose, a short list, or a small diagram according to what makes those relationships clearest.
+3. Ground the explanation in the source: link relevant source locations where available, and distinguish observed behavior from inferred intent. Stop when the selected level's question is answered in context.
 
 Keep the task read-only unless the user also requests changes.
