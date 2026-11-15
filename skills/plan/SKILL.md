@@ -5,7 +5,9 @@ description: Question the user relentlessly about a plan, decision, or idea. Use
 
 Interview the user relentlessly until you reach a shared understanding. Map this as a **design tree**: every decision branches into the decisions that hang off it.
 
-Work the tree in **rounds**. The **frontier** is every decision whose prerequisites are already settled: the questions you can ask _now_ without guessing at answers you haven't heard yet. Ask the whole frontier in one round: number each question and give your recommended answer. Then wait for the user's answers before the next round. If the user is referencing a separate system, then before asking any questions, check what it does first and either accept that as the answer, or provide it as part of the context when our implementation differs or if the solution is unclear.
+When the plan involves a project's domain model, call the Skill tool with "domain-modeling" before the first round. Capture terms and decisions as they are resolved.
+
+Work the tree in **rounds**. The **frontier** is every decision whose prerequisites are already settled: the questions you can ask _now_ without guessing at answers you haven't heard yet. Ask the whole frontier in one round: number each question and give your recommended answer. Include visualizations with $visualize, but only when they are very simple and help visually illustrate thepoint. Then wait for the user's answers before the next round. If the user is referencing a separate system, then before asking any questions, check what it does first and either accept that as the answer, or provide it as part of the context when our implementation differs or if the solution is unclear.
 
 Format a round like so:
 
