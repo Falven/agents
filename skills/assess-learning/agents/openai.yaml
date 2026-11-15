@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reading and Learning Assessment"
+  short_description: "Measure how text presentation affects your learning"
+  default_prompt: "Use $assess-learning to run an interactive reading assessment and build an evidence-based profile of how to present information to me."
