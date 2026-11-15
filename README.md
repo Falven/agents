@@ -2,6 +2,16 @@
 
 Repository for installable agent skills and future agent-related artifacts.
 
+### Install All Skills Globally
+
+With Node.js and npm installed, run this command from the repo:
+
+```bash
+npm run install:skills
+```
+
+This installs all skills from the local checkout at user scope for every agent supported by the `skills` CLI. No separate `npm install` is needed.
+
 ### Operator Install With `skills`
 
 Install `prompt-guidance` globally from the remote repo to all agents supported by the `skills` CLI:

@@ -1,0 +1,7 @@
+{
+  "name": "agents",
+  "private": true,
+  "scripts": {
+    "install:skills": "npx --yes skills add . -g --agent '*' --skill '*' -y"
+  }
+}
