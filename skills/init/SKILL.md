@@ -1,10 +1,10 @@
 ---
-name: init-artifacts
+name: init
 description: "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills."
 disable-model-invocation: true
 ---
 
-# Initialize Artifacts
+# Initialize
 
 Scaffold the per-repo configuration that the engineering skills assume:
 

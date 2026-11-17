@@ -1,0 +1,5 @@
+interface:
+  display_name: "Init"
+  short_description: "Configure a repo"
+policy:
+  allow_implicit_invocation: false
